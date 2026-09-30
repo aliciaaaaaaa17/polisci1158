@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alicia Peng</title>
+  <style>
+    :root {
+      --ink: #1d232b;
+      --muted: #566070;
+      --line: #c9ced6;
+      --paper: #fbfbfa;
+      --accent: #24476b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+      font-size: 1.125rem;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 5rem;
+    }
+
+    header {
+      padding-bottom: 2.5rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.25rem, 7vw, 3.25rem);
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+    }
+
+    .tagline {
+      margin: 0.75rem 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    section {
+      border-top: 1px solid var(--line);
+      padding: 2.25rem 0;
+    }
+
+    section:last-of-type {
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 1rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    .projects {
+      list-style: none;
+      padding: 0;
+    }
+
+    .projects li {
+      margin-bottom: 1.25rem;
+    }
+
+    .projects strong {
+      display: block;
+      font-weight: 700;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .placeholder {
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Alicia Peng</h1>
+      <p class="tagline">Stanford University</p>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I'm Alicia Peng, a junior at Stanford studying economics with a minor in
+        art history.
+      </p>
+      <p>
+        I'm curious about how economic, social, and historical forces shape the
+        world, and how AI is changing the way we study them. This site collects my
+        interests and my ideas for POLISCI1158.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Economics</li>
+        <li>Social sciences</li>
+        <li>Sociology</li>
+        <li>History</li>
+        <li>AI</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Project Ideas for POLISCI1158</h2>
+      <p class="placeholder">Coming soon.</p>
+    </section>
+  </main>
+</body>
+</html>
